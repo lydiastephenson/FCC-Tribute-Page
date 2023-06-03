@@ -2,6 +2,8 @@
 
 Objective: Build an app that is functionally similar to <https://tribute-page.freecodecamp.rocks>
 
+Final Project: <https://fcc-tribute-page--lydia-stephenson.repl.co/>
+
 ## User Stories:
 
 1. Your tribute page should have a main element with a corresponding id of main, which contains all other elements
