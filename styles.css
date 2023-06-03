@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Rubik&display=swap');
+
+:root {
+    --gold: rgb(253,205,6);
+    --red: rgb(191,15,15);
+    --blue: rgb(17,112,159);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover {
+    color: var(--red);
+}
+
+#img-div {
+    position: relative;
+}
+
+#img-caption {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding: 5px;
+    font-size: 0.75rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+section {
+    width: 80%;
+    margin: 40px auto 50px auto;
+}
+
+#tribute-info p {
+    padding: 10px;
+    line-height: 150%;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 5px;
+}
+
+tr td:first-of-type {
+    text-align: left;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+tr td:last-of-type {
+    text-align: right;
+}
+
+.border hr {
+    border-width: 2px;
+    border-style: solid;
+    margin: 0;
+}
+
+.border hr:nth-of-type(1) {
+    border-color: var(--gold);
+}
+
+.border hr:nth-of-type(2) {
+    border-color: var(--red);
+}
+
+.border hr:nth-of-type(3) {
+    border-color: var(--blue);
+}
